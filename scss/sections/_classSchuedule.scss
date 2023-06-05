@@ -1,0 +1,188 @@
+.classSchedule {
+	background-image: url(../img/buda.png);
+	max-height: 850px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	.parrafo {
+		font-size: 25px;
+		margin: 40px;
+		color: antiquewhite;
+	}
+	p {
+		font-family: 'Instrument Serif', serif;
+		font-size: 25px;
+		color: antiquewhite;
+		text-align: center;
+		padding: 20px;
+	}
+}
+.padding-shedule {
+	padding: 30px 0;
+}
+.schedule {
+	display: grid;
+	grid-template-columns: repeat(6, 120px);
+	grid-template-rows: repeat(10, 30px);
+	gap: 5px;
+	border: 1px solid rgb(229, 15, 215);
+	width: 720px;
+	margin: 0 auto;
+	border-radius: 20px;
+	backdrop-filter: blur(10px);
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-transform: capitalize;
+		color: aliceblue;
+	}
+	
+}
+.time {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.monday {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.tuesday {
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+.wednesday {
+	grid-column: 4/5;
+	grid-row: 1/2;
+}
+.thursday {
+	grid-column: 5/6;
+	grid-row: 1/2;
+}
+.friday {
+	grid-column: 6/7;
+	grid-row: 1/2;
+}
+.seventhirty {
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+.nine {
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+.ten {
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+.eleven {
+	grid-column: 1/2;
+	grid-row: 5/6;
+}
+.twelvethirty {
+	grid-column: 1/2;
+	grid-row: 6/7;
+}
+.four {
+	grid-column: 1/2;
+	grid-row: 7/8;
+}
+.five {
+	grid-column: 1/2;
+	grid-row: 8/9;
+}
+.six {
+	grid-column: 1/2;
+	grid-row: 9/10;
+}
+.seven {
+	grid-column: 1/2;
+	grid-row: 10/11;
+}
+.vynasa {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.vynasa2 {
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+.vynasa3 {
+	grid-column: 4/5;
+	grid-row: 2/3;
+}
+.vynasa4 {
+	grid-column: 5/6;
+	grid-row: 2/3;
+}
+.vynasa5 {
+	grid-column: 6/7;
+	grid-row: 2/3;
+}
+.vynasa6 {
+	grid-column: 2/3;
+	grid-row: 5/6;
+}
+.vynasa7 {
+	grid-column: 3/4;
+	grid-row: 5/6;
+}
+.vynasa8 {
+	grid-column: 4/5;
+	grid-row: 5/6;
+}
+.vynasa9 {
+	grid-column: 5/6;
+	grid-row: 5/6;
+}
+.vynasa10 {
+	grid-column: 6/7;
+	grid-row: 5/6;
+}
+.yin {
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.yin2 {
+	grid-column: 4/5;
+	grid-row: 3/4;
+}
+.yin3 {
+	grid-column: 6/7;
+	grid-row: 3/4;
+}
+.restorative {
+	grid-column: 3/4;
+	grid-row: 6/7;
+}
+.restorative2 {
+	grid-column: 5/6;
+	grid-row: 6/7;
+}
+.intro {
+	grid-column: 2/3;
+	grid-row: 8/9;
+}
+.intro2 {
+	grid-column: 4/5;
+	grid-row: 8/9;
+}
+.ytt {
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+.ytt2 {
+	grid-column: 4/5;
+	grid-row: 4/5;
+}
+.ytt3 {
+	grid-column: 6/7;
+	grid-row: 4/5;
+}
+.titleSetion {
+	text-align: center;
+	color: black;
+	padding: 30px;
+	font-family: 'Instrument Serif', serif;
+	font-size: 45px;
+}
